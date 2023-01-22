@@ -1,0 +1,35 @@
+@use "../styles/variables";
+
+.text {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  
+  color: variables.$soft-blue;
+  &__heading {
+    color: variables.$white;
+    font-size: 1.5rem;
+  }
+  &__paragraph {
+    color:variables.$soft-blue;
+  }
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  &__bottom--left {
+    color: variables.$cyan;
+    display: flex;
+  }
+  &__bottom--right {
+    display: flex;
+    color: variables.$white;
+  }
+  &__icon--left {
+    padding-right: 5px;
+  }
+  &__icon--right {
+    padding-right: 5px;
+  }
+}

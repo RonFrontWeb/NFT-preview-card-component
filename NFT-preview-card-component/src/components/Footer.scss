@@ -1,0 +1,21 @@
+@use "../styles/variables";
+
+
+.footer {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  &__image {
+    height: 30px;
+    margin-right: 20px;
+    padding: 1px;
+    background-color: variables.$white;
+    border-radius: 50%;
+  }
+  &__text {
+    color: variables.$soft-blue;
+  }
+  &__highlight {
+    color:variables.$white
+  }
+}
